@@ -50,8 +50,6 @@
 
 ?>
 
-// texto
-
 <p>Fundado en <?php echo $ano ?> por <?php echo $fundador ?>, <?php echo nombresitio ?> es un portal de noticias enfocado en el ámbito musical de todo el mundo. 
 Acá podrás encontrar desde entrevistas, análisis discograficos, actualizaciones, fechas de conciertos y mucho más.
 <br>
@@ -60,5 +58,20 @@ Fuimos reconocidos como mejor portal de noticias en <?php echo $multiplicador ?>
 de alto rango como: <?php echo $artistas[0] ?>, <?php echo $artistas[1] ?> y <?php echo $artistas[2] ?>.
 Enterate de lo que está pasando en el mundo de la música ahora mismo.
 </p>
+
+<?php
+
+	$yearfooter = 2022;
+
+?>
+
+<footer>
+<div class="box"></div>
+<div class="footerdesign">
+	<p>(c) <?php echo $yearfooter ?> Hernán Lombardero</p>
+</div>
+</footer>
+</html>
+
 
 </html>

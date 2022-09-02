@@ -56,4 +56,19 @@
 
 </section>
 
+
+<?php
+
+	$yearfooter = 2022;
+
+?>
+
+<footer>
+<div class="box"></div>
+<div class="footerdesign">
+	<p>(c) <?php echo $yearfooter ?> Hernán Lombardero</p>
+</div>
+</footer>
+</html>
+
 </html>

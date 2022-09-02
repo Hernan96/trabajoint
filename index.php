@@ -71,4 +71,38 @@
 	echo "<br>";
 	echo $MASVEND[4];
 ?>
+
+<?php
+
+	$badbunnyprecio = 35;
+	$rosaliaprecio = 40;
+	$harrystylesprecio = 50;
+	$combo = $badbunnyprecio + $rosaliaprecio + $harrystylesprecio;
+?>
+
+<h1><u><b>Últimos lanzamientos:</b></u></h1>
+
+	<ul>
+		<li>Bad Bunny - "Un verano Sin Ti"<br>
+	Precio: $<?php echo $badbunnyprecio ?></li>
+	<li>Rosalía - "Motomami"<br>
+	Precio: $<?php echo $rosaliaprecio ?></li>
+	<li>Harry Styles - "Harry's House"<br>
+	Precio: $<?php echo $harrystylesprecio ?></li>
+</ul>
+
+Combo por los tres CDs: $<?php echo $combo ?>
+
+<?php
+
+	$yearfooter = 2022;
+
+?>
+
+<footer>
+<div class="box"></div>
+<div class="footerdesign">
+	<p>(c) <?php echo $yearfooter ?> Hernán Lombardero</p>
+</div>
+</footer>
 </html>
