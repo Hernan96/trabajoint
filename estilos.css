@@ -1,0 +1,72 @@
+/* Cuerpo */
+
+body {
+
+background-color: grey;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Menú */
+
+.menu {
+
+background-color: aqua;
+padding: 1rem;
+
+}
+
+.menu ul {
+
+list-style:none;
+
+}
+
+.menu li {
+
+display: inline-block;
+padding-left:2rem;
+
+}
+
+.menu a {
+
+text-decoration:none;
+color:#000000;
+font-weight: bold;
+ 
+}
+
+/* Contacto formulario */
+
+.contacto_formulario {
+
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+
+}
+
+.contacto_formulario ul {
+
+    list-style: none;
+
+}
+
+
+.contacto_input {
+
+    display:block;
+    width: 300px;
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+
+    }
+
+/* Caja invisible */
+
+.box{
+        width: 100%;
+        height: 20px;
+        border: 1px solid black;
+        visibility: hidden;
+        }
